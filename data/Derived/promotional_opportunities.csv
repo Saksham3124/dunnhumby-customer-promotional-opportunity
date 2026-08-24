@@ -1,0 +1,11 @@
+index,household_key,sales,value_segment,top_affinity_category,campaign_score_pct,category_affinity_pct,engagement_pct,promotional_opportunity_score
+228,2459,20671.5,High Value - Frequent,GROCERY,0.0,99.76,100.0,64.93
+229,1023,38319.79,High Value - Frequent,GARDEN CENTER,0.0,99.92,99.76,64.89
+236,900,16450.53,High Value - Frequent,DELI,0.0,99.28,99.72,64.69
+238,1489,17251.53,High Value - Frequent,GROCERY,0.0,98.48,99.84,64.49
+239,707,19194.42,High Value - Frequent,PASTRY,0.0,98.32,99.8,64.43
+244,909,12414.56,High Value - Frequent,FLORAL,0.0,97.6,99.64,64.15
+245,1510,11211.37,High Value - Frequent,SALAD BAR,0.0,98.76,98.6,64.14
+246,328,17332.13,High Value - Frequent,DELI,0.0,99.56,97.92,64.14
+247,591,13534.93,High Value - Frequent,MEAT,0.0,98.92,98.32,64.09
+248,2312,14682.81,High Value - Frequent,SALAD BAR,0.0,99.08,98.12,64.07
