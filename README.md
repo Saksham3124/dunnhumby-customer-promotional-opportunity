@@ -4,6 +4,9 @@ End-to-end customer segmentation, category performance analysis, and promotional
 
 The project identifies high-potential households that have strong behavioral and category affinity but no recorded campaign history, while independently validating the core analytical results across three analytical environments.
 
+**Dataset:** [dunnhumby Complete Journey](link-here) — 2,500 households, 
+2.6M transactions, 102 weeks of purchase history.
+
 ---
 
 ## Business Question
