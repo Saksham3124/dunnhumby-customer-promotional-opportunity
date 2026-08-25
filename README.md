@@ -318,7 +318,7 @@ Provides a high-level view of:
 * Category performance
 * Key business findings
 
-![Executive Overview](images/executive_overview.png)
+![Executive Overview](images/page1-executive-overview.png)
 
 ### 2. Customer & Category Insights
 
@@ -330,13 +330,13 @@ Explores:
 * Category reach and value
 * Customer-level patterns
 
-![Customer & Category Insights](images/customer_category_insights.png)
+![Customer & Category Insights](images/page2-category-insights.png)
 
 ### 3. Promotional Opportunity Diagnostic
 
 Provides a diagnostic view of the identified opportunity households, showing their score components side by side.
 
-![Promotional Opportunity Diagnostic](images/promotional_opportunity.png)
+![Promotional Opportunity Diagnostic](images/page3-promotional-diagnostic.png)
 
 > **Diagnostic note:** Scores represent relative standing among the 2,500 households. The projected uplift is an illustrative sensitivity case rather than an evidence-based forecast.
 
