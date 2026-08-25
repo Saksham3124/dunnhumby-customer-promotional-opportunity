@@ -337,7 +337,7 @@ Validation logic and outputs are documented in the notebooks, particularly:
 │   ├── 01_data_audit.ipynb
 │   │   # Schema, quality checks, referential integrity
 │   │
-│   ├── 02_analytical_eda_v2_natural.ipynb
+│   ├── 02_analytical_eda.ipynb
 │   │   # EDA, business scoring, segmentation
 │   │
 │   ├── 03_postgresql_analysis.ipynb
@@ -379,7 +379,7 @@ The analysis is organized as a sequential workflow:
 ```text
 01_data_audit.ipynb
         ↓
-02_analytical_eda_v2_natural.ipynb
+02_analytical_eda.ipynb
         ↓
 03_postgresql_analysis.ipynb
         ↓
@@ -395,7 +395,7 @@ Recommendation Memo
 ### Suggested execution order
 
 1. Run `01_data_audit.ipynb`
-2. Run `02_analytical_eda_v2_natural.ipynb`
+2. Run `02_analytical_eda.ipynb`
 3. Run `03_postgresql_analysis.ipynb`
 4. Run `04_campaign_scenario.ipynb`
 5. Review the exported tables in `data/Derived/`
