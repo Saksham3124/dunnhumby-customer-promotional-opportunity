@@ -9,8 +9,7 @@ The project identifies high-potential households that have strong behavioral and
 
 The dataset can also be downloaded from Kaggle:
 
-[Dunnhumby - The Complete Journey - Kaggle](https://www.kaggle.com/datasets/frtgnn/dunnhumby-the-complete-journey) — 2,500 households, 
-2.6M transactions, 102 weeks of purchase history.
+[Dunnhumby - The Complete Journey - Kaggle](https://www.kaggle.com/datasets/frtgnn/dunnhumby-the-complete-journey) — 2,500 households, 2.6M transactions, 102 weeks of purchase history.
 
 ---
 
@@ -33,6 +32,24 @@ This identifies a specific, behaviorally defined promotional opportunity rather 
 Under an explicitly labeled **illustrative +10% sensitivity scenario**, targeting these households represents approximately **$18.1K in potential incremental sales**.
 
 > **Important:** The $18.1K figure is not a causal forecast or evidence-based uplift estimate. It is a sensitivity case used to quantify the potential scale of the identified opportunity.
+
+---
+
+## Dashboard Preview
+
+### Executive Overview
+
+![Executive Overview](images/page1-executive-overview.png)
+
+### Customer & Category Insights
+
+![Customer & Category Insights](images/page2-category-insights.png)
+
+### Promotional Opportunity Diagnostic
+
+![Promotional Opportunity Diagnostic](images/page3-promotional-diagnostic.png)
+
+> **Diagnostic note:** Scores represent relative standing among the 2,500 households. The projected uplift is an illustrative sensitivity case rather than an evidence-based forecast.
 
 ---
 
@@ -313,43 +330,6 @@ Validation logic and outputs are documented in the notebooks, particularly:
 
 ---
 
-# Power BI Dashboard
-
-The Power BI dashboard consists of three pages:
-
-### 1. Executive Overview
-
-Provides a high-level view of:
-
-* Overall sales
-* Customer segments
-* Category performance
-* Key business findings
-
-![Executive Overview](images/page1-executive-overview.png)
-
-### 2. Customer & Category Insights
-
-Explores:
-
-* Household behavior
-* Customer segments
-* Category performance
-* Category reach and value
-* Customer-level patterns
-
-![Customer & Category Insights](images/page2-category-insights.png)
-
-### 3. Promotional Opportunity Diagnostic
-
-Provides a diagnostic view of the identified opportunity households, showing their score components side by side.
-
-![Promotional Opportunity Diagnostic](images/page3-promotional-diagnostic.png)
-
-> **Diagnostic note:** Scores represent relative standing among the 2,500 households. The projected uplift is an illustrative sensitivity case rather than an evidence-based forecast.
-
----
-
 # Repository Structure
 
 ```text
@@ -383,9 +363,9 @@ Provides a diagnostic view of the identified opportunity households, showing the
 │       # Exported summary tables feeding Power BI
 │
 ├── images/
-│   ├── executive_overview.png
-│   ├── customer_category_insights.png
-│   └── promotional_opportunity.png
+│   ├── page1-executive-overview.png
+│   ├── page2-category-insights.png
+│   └── page3-promotional-diagnostic.png
 │
 └── README.md
 ```
